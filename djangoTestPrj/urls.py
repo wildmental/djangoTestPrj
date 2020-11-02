@@ -18,5 +18,13 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('blog.urls')),
+    path('blog/', include('blog.urls')),
+    # path('', include('main.urls')),
+    # path('user/', include('user.urls')),
+    # path('acc/', include('account.urls')),
+    # path('app_set/', include('app_setting.urls')),
+    # path('deb/', include('debate.urls')),
+    # path('comm/', include('comment.urls')),
+    # path('guild/', include('guild.urls')),
+    # path('news/', include('news.urls')),
 ]
